@@ -1,0 +1,6 @@
+{
+  "name": "bedrock-asset-extractor",
+  "version": "1.0.0",
+  "description": "Extract Minecraft Bedrock edition assets from your installed game",
+  "type": "module"
+}
