@@ -2,6 +2,8 @@
 
 Dumps the complete Minecraft Bedrock assets from your installed copy of the game, as one flat, readable pack per family.
 
+**Check [Mojang/bedrock-samples](https://github.com/Mojang/bedrock-samples/releases) first.** Mojang publish the vanilla resource and behavior packs there already unpacked, one release per version. If the version you want is in the [releases](https://github.com/Mojang/bedrock-samples/releases), just grab it, it's simpler than running this. Use this when it isn't: the releases lag behind, and only vanilla is published, so anything newer than the latest release or outside vanilla has to come off your own install.
+
 Bedrock doesn't ship its assets in a usable state. Two things get in the way:
 
 - **Diff chains.** The vanilla pack is a base plus a chain of per-version diff packs (`vanilla`, `vanilla_base`, `vanilla_1.26.50`, ...) that all share one pack UUID. Each versioned folder only contains the files *that version changed*, so no single folder is the game.
